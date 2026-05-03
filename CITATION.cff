@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: JRC-TMF-CD256
+version: 2.0
+message: If you use this dataset, cite the dataset DOI and the upstream JRC Tropical Moist Forest and Landsat data sources.
+authors:
+  - family-names: Zhou
+    given-names: Jinghe

@@ -1,0 +1,11 @@
+metric,value,notes
+planned_audit_samples,300,Stratified sample count
+accepted,,Fill after manual review
+flagged,,Fill after manual review
+rejected,,Fill after manual review
+accept_rate,,accepted / reviewed
+flag_rate,,flagged / reviewed
+reject_rate,,rejected / reviewed
+severe_cloud_shadow_issue_rate,,Count cloud_shadow_issue=severe / reviewed
+severe_water_issue_rate,,Count water_issue=severe / reviewed
+low_boundary_confidence_rate,,Count boundary_confidence=low / reviewed

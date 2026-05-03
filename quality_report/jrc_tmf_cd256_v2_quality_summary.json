@@ -1,0 +1,37 @@
+{
+  "name": "JRC-TMF-CD256",
+  "version": "2.0",
+  "spatial_size": "256x256",
+  "time_pair": "2020 -> 2023",
+  "triplets": 5000,
+  "positive": 3682,
+  "negative": 1318,
+  "valid_ratio": {
+    "min": 0.8000030517578125,
+    "p25": 0.9564208984375,
+    "median": 0.992523193359375,
+    "mean": 0.9678961547851562,
+    "p75": 0.99993896484375,
+    "max": 1.0
+  },
+  "change_ratio": {
+    "min": 0.0,
+    "p25": 0.0,
+    "median": 0.00489042393862518,
+    "mean": 0.012589640405972633,
+    "p75": 0.013117614402410976,
+    "max": 0.45313138062887476
+  },
+  "splits": {
+    "train": 4005,
+    "val": 500,
+    "test": 495
+  },
+  "label_values": [
+    0,
+    1,
+    255
+  ],
+  "roi_count": 19,
+  "source": "JRC Tropical Moist Forest / Landsat-derived Google Earth Engine exports"
+}

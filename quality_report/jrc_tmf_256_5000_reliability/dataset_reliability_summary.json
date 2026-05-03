@@ -1,0 +1,336 @@
+{
+  "root": "/private/tmp/JRC_TMF_256_5000_build",
+  "out_dir": "/private/tmp/jrc_tmf_256_5000_reliability",
+  "seed": 42,
+  "splits_created_or_overwritten": true,
+  "counts": {
+    "A_files": 5000,
+    "B_files": 5000,
+    "label_files": 5000,
+    "matched_triplets": 5000,
+    "missing_A_or_B_or_label": {
+      "A_not_common": 0,
+      "B_not_common": 0,
+      "label_not_common": 0
+    }
+  },
+  "splits": {
+    "train": 4005,
+    "val": 500,
+    "test": 495
+  },
+  "distribution": {
+    "total_pixels": 327680000,
+    "total_valid_pixels": 317160212,
+    "total_change_pixels": 3849948,
+    "total_ignore_pixels": 10519788,
+    "valid_pixel_ratio": 0.9678961547851562,
+    "change_pixel_ratio": 0.012138811409294934,
+    "source_counts": {
+      "jrc_tmf_2020_2023_amazon_bolivia_01": 154,
+      "jrc_tmf_2020_2023_amazon_brazil_01": 243,
+      "jrc_tmf_2020_2023_amazon_brazil_02_stable": 267,
+      "jrc_tmf_2020_2023_amazon_colombia_01": 217,
+      "jrc_tmf_2020_2023_amazon_colombia_02_stable": 280,
+      "jrc_tmf_2020_2023_amazon_guyana_01_stable": 96,
+      "jrc_tmf_2020_2023_amazon_peru_01": 365,
+      "jrc_tmf_2020_2023_amazon_peru_02_stable": 272,
+      "jrc_tmf_2020_2023_congo_cameroon_01": 389,
+      "jrc_tmf_2020_2023_congo_drc_01": 355,
+      "jrc_tmf_2020_2023_congo_drc_02_stable": 415,
+      "jrc_tmf_2020_2023_congo_gabon_01": 266,
+      "jrc_tmf_2020_2023_congo_gabon_02_stable": 268,
+      "jrc_tmf_2020_2023_congo_roc_01_stable": 183,
+      "jrc_tmf_2020_2023_se_asia_borneo_01": 390,
+      "jrc_tmf_2020_2023_se_asia_borneo_02_stable": 279,
+      "jrc_tmf_2020_2023_se_asia_papua_01_stable": 318,
+      "jrc_tmf_2020_2023_se_asia_sumatra_01": 105,
+      "jrc_tmf_2020_2023_se_asia_sumatra_02_stable": 138
+    },
+    "sample_type_counts": {
+      "positive": 3682,
+      "negative": 1318
+    },
+    "change_ratio_quantiles": {
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0048893054101638665,
+      "p75": 0.013120167706953543,
+      "p95": 0.04291868776084549,
+      "max": 0.45313138062887476,
+      "mean": 0.012589640405972631,
+      "std": 0.028577878019301745
+    },
+    "valid_ratio_quantiles": {
+      "min": 0.8000030517578125,
+      "p05": 0.8498908996582031,
+      "p25": 0.9564132690429688,
+      "median": 0.9925079345703125,
+      "p75": 0.99993896484375,
+      "p95": 1.0,
+      "max": 1.0,
+      "mean": 0.9678961547851562,
+      "std": 0.048535455497979704
+    },
+    "split_source_counts": {
+      "train": {
+        "jrc_tmf_2020_2023_amazon_bolivia_01": 132,
+        "jrc_tmf_2020_2023_amazon_brazil_01": 186,
+        "jrc_tmf_2020_2023_amazon_brazil_02_stable": 188,
+        "jrc_tmf_2020_2023_amazon_colombia_01": 189,
+        "jrc_tmf_2020_2023_amazon_colombia_02_stable": 238,
+        "jrc_tmf_2020_2023_amazon_guyana_01_stable": 61,
+        "jrc_tmf_2020_2023_amazon_peru_01": 278,
+        "jrc_tmf_2020_2023_amazon_peru_02_stable": 239,
+        "jrc_tmf_2020_2023_congo_cameroon_01": 321,
+        "jrc_tmf_2020_2023_congo_drc_01": 319,
+        "jrc_tmf_2020_2023_congo_drc_02_stable": 366,
+        "jrc_tmf_2020_2023_congo_gabon_01": 208,
+        "jrc_tmf_2020_2023_congo_gabon_02_stable": 206,
+        "jrc_tmf_2020_2023_congo_roc_01_stable": 146,
+        "jrc_tmf_2020_2023_se_asia_borneo_01": 304,
+        "jrc_tmf_2020_2023_se_asia_borneo_02_stable": 210,
+        "jrc_tmf_2020_2023_se_asia_papua_01_stable": 242,
+        "jrc_tmf_2020_2023_se_asia_sumatra_01": 83,
+        "jrc_tmf_2020_2023_se_asia_sumatra_02_stable": 89
+      },
+      "val": {
+        "jrc_tmf_2020_2023_amazon_bolivia_01": 13,
+        "jrc_tmf_2020_2023_amazon_brazil_01": 24,
+        "jrc_tmf_2020_2023_amazon_brazil_02_stable": 30,
+        "jrc_tmf_2020_2023_amazon_colombia_01": 16,
+        "jrc_tmf_2020_2023_amazon_colombia_02_stable": 23,
+        "jrc_tmf_2020_2023_amazon_guyana_01_stable": 11,
+        "jrc_tmf_2020_2023_amazon_peru_01": 45,
+        "jrc_tmf_2020_2023_amazon_peru_02_stable": 15,
+        "jrc_tmf_2020_2023_congo_cameroon_01": 21,
+        "jrc_tmf_2020_2023_congo_drc_01": 23,
+        "jrc_tmf_2020_2023_congo_drc_02_stable": 36,
+        "jrc_tmf_2020_2023_congo_gabon_01": 37,
+        "jrc_tmf_2020_2023_congo_gabon_02_stable": 30,
+        "jrc_tmf_2020_2023_congo_roc_01_stable": 16,
+        "jrc_tmf_2020_2023_se_asia_borneo_01": 32,
+        "jrc_tmf_2020_2023_se_asia_borneo_02_stable": 47,
+        "jrc_tmf_2020_2023_se_asia_papua_01_stable": 52,
+        "jrc_tmf_2020_2023_se_asia_sumatra_01": 11,
+        "jrc_tmf_2020_2023_se_asia_sumatra_02_stable": 18
+      },
+      "test": {
+        "jrc_tmf_2020_2023_amazon_bolivia_01": 9,
+        "jrc_tmf_2020_2023_amazon_brazil_01": 33,
+        "jrc_tmf_2020_2023_amazon_brazil_02_stable": 49,
+        "jrc_tmf_2020_2023_amazon_colombia_01": 12,
+        "jrc_tmf_2020_2023_amazon_colombia_02_stable": 19,
+        "jrc_tmf_2020_2023_amazon_guyana_01_stable": 24,
+        "jrc_tmf_2020_2023_amazon_peru_01": 42,
+        "jrc_tmf_2020_2023_amazon_peru_02_stable": 18,
+        "jrc_tmf_2020_2023_congo_cameroon_01": 47,
+        "jrc_tmf_2020_2023_congo_drc_01": 13,
+        "jrc_tmf_2020_2023_congo_drc_02_stable": 13,
+        "jrc_tmf_2020_2023_congo_gabon_01": 21,
+        "jrc_tmf_2020_2023_congo_gabon_02_stable": 32,
+        "jrc_tmf_2020_2023_congo_roc_01_stable": 21,
+        "jrc_tmf_2020_2023_se_asia_borneo_01": 54,
+        "jrc_tmf_2020_2023_se_asia_borneo_02_stable": 22,
+        "jrc_tmf_2020_2023_se_asia_papua_01_stable": 24,
+        "jrc_tmf_2020_2023_se_asia_sumatra_01": 11,
+        "jrc_tmf_2020_2023_se_asia_sumatra_02_stable": 31
+      }
+    }
+  },
+  "leakage": {
+    "split_intersections": {
+      "train_val": 0,
+      "test_train": 0,
+      "test_val": 0
+    },
+    "exact_triplet_duplicate_groups": [],
+    "exact_image_duplicate_groups": [],
+    "cross_split_near_duplicate_count_capped": 0,
+    "cross_split_near_duplicate_examples": [],
+    "near_duplicate_hamming_threshold": 4
+  },
+  "quality": {
+    "bad_shape_count": 0,
+    "bad_shape_examples": [],
+    "bad_label_value_count": 0,
+    "bad_label_value_examples": [],
+    "mean_brightness_A": {
+      "min": 7.694661617279053,
+      "p05": 19.910647010803224,
+      "p25": 22.555723667144775,
+      "median": 24.748367309570312,
+      "p75": 27.338285446166992,
+      "p95": 33.2132272720337,
+      "max": 74.52498626708984,
+      "mean": 25.352257796764373,
+      "std": 4.421976110373015
+    },
+    "mean_brightness_B": {
+      "min": 3.969935178756714,
+      "p05": 20.258621978759766,
+      "p25": 22.643394947052002,
+      "median": 24.557388305664062,
+      "p75": 27.012524127960205,
+      "p95": 32.06439952850342,
+      "max": 77.78392791748047,
+      "mean": 25.18996673951149,
+      "std": 4.187134794723098
+    },
+    "phase_correlation_sample_count": 200,
+    "phase_shift_abs_pixels": {
+      "min": 0.0,
+      "p05": 0.0,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 22.08884152126083,
+      "max": 33.61547262794322,
+      "mean": 1.8532726181021908,
+      "std": 6.647584569074142
+    },
+    "phase_shift_examples": [
+      {
+        "name": "jrc_tmf_2020_2023_se_asia_papua_01_stable_003328_002560.png",
+        "dx": 31,
+        "dy": -13,
+        "score": 0.07993844586587348,
+        "abs_shift": 33.61547262794322
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_roc_01_stable_005888_005888.png",
+        "dx": -29,
+        "dy": -10,
+        "score": 0.05690688794561957,
+        "abs_shift": 30.675723300355934
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_002560_003328.png",
+        "dx": -15,
+        "dy": 26,
+        "score": 0.05767248407221866,
+        "abs_shift": 30.01666203960727
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_001536_002560.png",
+        "dx": 18,
+        "dy": 22,
+        "score": 0.061926265904605954,
+        "abs_shift": 28.42534080710379
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_cameroon_01_007168_002560.png",
+        "dx": 2,
+        "dy": 28,
+        "score": 0.0554292011148966,
+        "abs_shift": 28.071337695236398
+      },
+      {
+        "name": "jrc_tmf_2020_2023_se_asia_borneo_02_stable_005120_005888.png",
+        "dx": -14,
+        "dy": 24,
+        "score": 0.09382007247492716,
+        "abs_shift": 27.784887978899608
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_001024_005120.png",
+        "dx": 27,
+        "dy": -1,
+        "score": 0.05618812129539236,
+        "abs_shift": 27.018512172212592
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_000000_005888.png",
+        "dx": 22,
+        "dy": 15,
+        "score": 0.052712883503266944,
+        "abs_shift": 26.627053911388696
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_000768_005632.png",
+        "dx": -16,
+        "dy": 18,
+        "score": 0.0522418494419801,
+        "abs_shift": 24.08318915758459
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_02_stable_006400_001792.png",
+        "dx": -17,
+        "dy": 16,
+        "score": 0.06275639761273122,
+        "abs_shift": 23.345235059857504
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_005888_005120.png",
+        "dx": 1,
+        "dy": 22,
+        "score": 0.05759902548123425,
+        "abs_shift": 22.02271554554524
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_001024_005632.png",
+        "dx": 14,
+        "dy": -12,
+        "score": 0.07019019315214123,
+        "abs_shift": 18.439088914585774
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_001024_003328.png",
+        "dx": -7,
+        "dy": -16,
+        "score": 0.06291030079347819,
+        "abs_shift": 17.46424919657298
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_02_stable_003328_002816.png",
+        "dx": 1,
+        "dy": -17,
+        "score": 0.06072727045697926,
+        "abs_shift": 17.029386365926403
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_gabon_01_000000_004096.png",
+        "dx": 14,
+        "dy": -1,
+        "score": 0.057987775964128276,
+        "abs_shift": 14.035668847618199
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_cameroon_01_007168_002304.png",
+        "dx": 2,
+        "dy": 0,
+        "score": 0.06506366808434619,
+        "abs_shift": 2.0
+      },
+      {
+        "name": "jrc_tmf_2020_2023_amazon_colombia_02_stable_000512_006656.png",
+        "dx": 0,
+        "dy": 0,
+        "score": 0.19323581578697238,
+        "abs_shift": 0.0
+      },
+      {
+        "name": "jrc_tmf_2020_2023_amazon_brazil_01_001280_003584.png",
+        "dx": 0,
+        "dy": 0,
+        "score": 0.13394121987032964,
+        "abs_shift": 0.0
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_cameroon_01_006400_006400.png",
+        "dx": 0,
+        "dy": 0,
+        "score": 0.22659751055516264,
+        "abs_shift": 0.0
+      },
+      {
+        "name": "jrc_tmf_2020_2023_congo_cameroon_01_001792_004352.png",
+        "dx": 0,
+        "dy": 0,
+        "score": 0.22095785984027547,
+        "abs_shift": 0.0
+      }
+    ]
+  }
+}

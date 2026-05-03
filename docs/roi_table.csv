@@ -1,0 +1,20 @@
+roi_id,macro_region,country_or_area,role,t1_year,t2_year
+amazon_bolivia_01,Amazon,Bolivia,original,2020,2023
+amazon_brazil_01,Amazon,Brazil,original,2020,2023
+amazon_colombia_01,Amazon,Colombia,original,2020,2023
+amazon_peru_01,Amazon,Peru,original,2020,2023
+congo_cameroon_01,Congo Basin,Cameroon,original,2020,2023
+congo_drc_01,Congo Basin,DRC,original,2020,2023
+congo_gabon_01,Congo Basin,Gabon,original,2020,2023
+se_asia_borneo_01,Southeast Asia,Borneo,original,2020,2023
+se_asia_sumatra_01,Southeast Asia,Sumatra,original,2020,2023
+amazon_brazil_02_stable,Amazon,Brazil,v2 stable extension,2020,2023
+amazon_peru_02_stable,Amazon,Peru,v2 stable extension,2020,2023
+amazon_colombia_02_stable,Amazon,Colombia,v2 stable extension,2020,2023
+amazon_guyana_01_stable,Amazon,Guyana,v2 stable extension,2020,2023
+congo_drc_02_stable,Congo Basin,DRC,v2 stable extension,2020,2023
+congo_roc_01_stable,Congo Basin,Republic of Congo,v2 stable extension,2020,2023
+congo_gabon_02_stable,Congo Basin,Gabon,v2 stable extension,2020,2023
+se_asia_borneo_02_stable,Southeast Asia,Borneo,v2 stable extension,2020,2023
+se_asia_papua_01_stable,Southeast Asia,Papua,v2 stable extension,2020,2023
+se_asia_sumatra_02_stable,Southeast Asia,Sumatra,v2 stable extension,2020,2023

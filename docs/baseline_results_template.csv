@@ -1,0 +1,7 @@
+model,code_source_or_commit,seed,input_size,normalization,augmentation,optimizer,learning_rate,batch_size,epochs,checkpoint_selection,precision,recall,f1,iou,oa,fp_rate,fn_rate,notes
+FC-EF,,,256x256,,,,,,,best validation F1,,,,,,,,
+FC-Siam-conc,,,256x256,,,,,,,best validation F1,,,,,,,,
+BIT,,,256x256,,,,,,,best validation F1,,,,,,,,
+ChangeFormer,,,256x256,,,,,,,best validation F1,,,,,,,,
+MANet,,,256x256,,,,,,,best validation F1,,,,,,,,
+Eagle-FNO,,,256x256,,,,,,,best validation F1,,,,,,,,
