@@ -1,4 +1,4 @@
-# JRC-TMF-CD256 v2.0-clean
+#  TropiForest-CD5k
 
 JRC-TMF-CD256 is a 256x256 forest change detection benchmark derived from JRC Tropical Moist Forest / Landsat-based Google Earth Engine exports. The fixed temporal pair is 2020 -> 2023.
 
